@@ -8,8 +8,8 @@ def sendNotification(user):
         "Content-Type" : "application/json"
         }
     payload = { "notification": {
-        "title": "Ki re mamma ki khobor?",
-        "text": "This text message should be displayed to everyone!",
+        "title": "Notification Title to send",
+        "text": "Notification Body to display",
          "click_action": ""
       },
         "android":{
